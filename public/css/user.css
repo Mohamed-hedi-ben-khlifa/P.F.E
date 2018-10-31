@@ -290,32 +290,36 @@
   height: 25px;
   background: url("cv-file-interface-symbol (2).png");
   background-size: 100%;
-  margin-right: -2%;
-  margin-top: 14px;
+  margin: 5%;
+  margin-left: 25px;
+  margin-top: -5%;
 }
 .showemploi{
   width:25px;
   height: 25px;
   background: url("employee (1).png");
   background-size: 100%;
-  margin-right: -2%;
-  margin-top: 14px;
+  margin: 5%;
+  margin-left: 25px;;
+  margin-top: -5%;
 }
 .showuser{
   width:25px;
   height: 25px;
   background: url("avatar(1).png");
   background-size: 100%;
-  margin-right: -2%;
-  margin-top: 14px;
+  margin: 5%;
+  margin-left: 25px;
+  margin-top: -5%;
 }
 .showtest{
   width:25px;
   height: 25px;
   background: url("exam (2).png");
   background-size: 100%;
-  margin-right: -2%;
-  margin-top: 14px;
+  margin: 5%;
+  margin-left: 25px;
+  margin-top: -5%;
 }
 .setting{
   width:17px;
@@ -342,19 +346,20 @@
   margin-left: 40%;
 }
 .notifications{
-  width:50px;
-  height: 50px;
+  width:40px;
+  height: 40px;
   background: url("notification (1).png");
   background-size: 100%;
   margin-left: 40%;
+  margin-top: -10%;
 }
 .Profile{
-  width:50px;
-  height: 50px;
+  width:30px;
+  height: 30px;
   background: url("avatar(1).png");
   background-size: 100%;
-  margin-left: 40%;
-  margin-right: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .users{
   width:17px;
@@ -419,6 +424,13 @@
   height: 25px;
   background: url("eye (1).png");
   background-size: 100%;
+}
+.adds{
+  width:25px;
+  height: 25px;
+  background: url("plus-circle1.png");
+  background-size: 100%;
+  margin-left: 50%;
 }
 
 .linne{

@@ -4,7 +4,7 @@
 @section('content')
     <link href="{{ asset('css/emploi.css') }}" rel="stylesheet">
 
-  <div class="container">
+  <div class="container" style="margin-top:6%;">
     <div class="page">
       <div class="image">
         <div class="filtre" id="fil">

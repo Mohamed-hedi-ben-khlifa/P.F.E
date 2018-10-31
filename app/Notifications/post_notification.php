@@ -13,10 +13,14 @@ class post_notification extends Notification
 
 
     protected $us;
+    public $cv;
+    public $emploi;
 
-    public function __construct($us)
+    public function __construct($us,$cv,$emploi)
     {
         $this->us=$us;
+        $this->emploi=$emploi;
+        $this->cv=$cv;
     }
 
     /**
@@ -33,11 +37,16 @@ class post_notification extends Notification
     public function toDatabase()
     {
         return [
-           'avatar' => $this->us->avatar,
-           'nom' => $this->us->name,
-           'message'=> "Demande a accepter ..."
+            'ide' => $this->emploi->id,
+            'idc' => $this->cv->id,
+            'id' => $this->us->id,
+            'avatar' => $this->us->avatar,
+            'nom' => $this->us->name,
+            'message'=> "Demande a accepter votre demmande"
         ];
     }
+
+
 
     /**
      * Get the array representation of the notification.

@@ -62,7 +62,7 @@
                       @endif
 
                       @if (Auth::user()->is_admin == 1)
-                      <button type="submit" class="btn btn-danger">Supprimer</button>
+                      <button type="submit" ><div class="closes"></div></button>
                       @endif
                   </form>
                 </td>

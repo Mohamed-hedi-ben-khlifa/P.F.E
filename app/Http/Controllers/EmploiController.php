@@ -23,7 +23,7 @@ class EmploiController extends Controller
     //lister l'emploi
     public function index(){
 
-        $listemploi = Emploi::paginate(6);
+        $listemploi = Emploi::all();
 
         return view('emploi.index',['emplois' => $listemploi]);
 
@@ -62,21 +62,21 @@ class EmploiController extends Controller
         $contrat = $request->input('categorie');
 
         if (($ville == "Ville")&&($contrat == "Categorie")){
-          $e = Emploi::all();
+          $e = Emploi::paginate(15);
           return view('emploi.rechercher',['emplois'=>$e]);
         }
 
         if (($ville == "Ville")&&($contrat != "Categorie")){
-          $e = Emploi::wherecontrat($contrat)->get();
+          $e = Emploi::wherecontrat($contrat)->paginate(15)->get();
           return view('emploi.rechercher',['emplois'=>$e]);
         }
 
         if (($ville == "Ville")&&($contrat != "Categorie")){
-          $e = Emploi::whereville($ville)->get();
+          $e = Emploi::whereville($ville)->paginate(15)->get();
           return view('emploi.rechercher',['emplois'=>$e]);
         }
 
-        $e = Emploi::whereville($ville)->wherecontrat($contrat)->get();
+        $e = Emploi::whereville($ville)->wherecontrat($contrat)->paginate(15)->get();
 
         return view('emploi.rechercher',['emplois'=>$e]);
 

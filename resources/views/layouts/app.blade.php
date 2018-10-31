@@ -75,19 +75,16 @@
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('Inscription') }}</a></li>
                         @else
 
-
-                        <notification :userid="{{auth()->id()}}" :unreads="{{auth()->user()->unreadNotifications}}"></notification>
-
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="margin-left:30px;text-decoration:none;color: rgba(0, 0, 0, 0.5);">
                                 <img src="/not.png" style="width:52px;height:52px;position:absolute; top:-15px;left:-30px;border-radius:50%;margin-left:-30%;">
                             </a>
 
-                            <ul class="dropdown-menu" role="menu" style="margin-top:10px;margin-left:-100%;width:300px;">
+                            <ul class="dropdown-menu" role="menu" style="margin-top:10px;margin-left:-600%;width:520px;">
                               <li>
                                 @foreach (auth()->user()->unreadNotifications as $notification)
                                 <div style="margin:2%;">
-                                  <a href="#" style="text-decoration:none;color: rgba(0, 0, 0, 0.5);">
+                                  <a href="{{url('/read')}}" data-toggle="modal" data-target="#notification" style="text-decoration:none;color: rgba(0, 0, 0, 0.5);">
                                     <img src="{{$notification->data['avatar']}}" style="width32px;height:32px;top:5px;left:10px;border-radius:50%;padding:2%;">
                                     {{$notification->data['nom']}}
                                     {{$notification->data['message']}}
@@ -103,7 +100,7 @@
                      <li class="dropdown">
                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding-left:10px;text-decoration:none;color: rgba(0, 0, 0, 0.5);">
                              <img src="/{{ Auth::user()->avatar }}" style="width32px;height:32px;position:absolute; top:-5px;left:-30px;border-radius:50%;">
-                             {{ Auth::user()->name }} <span class="caret"></span>
+                             {{ Auth::user()->name }} </span>
                          </a>
 
                          <ul class="dropdown-menu" role="menu" style="margin-top:10px;margin-left:-10%;">
@@ -131,6 +128,9 @@
                 </div>
             </div>
         </nav>
+
+
+
         <main class="py-4">
             @yield('content')
         </main>
@@ -145,7 +145,7 @@
 @yield('javascripts')
 
 <script type="text/javascript">
-$('#detail').on('show.bs.modal', function (event) {
+$('#notification').on('show.bs.modal', function (event) {
 
   var button = $(event.relatedTarget)
   var titre = button.data('mytitre')

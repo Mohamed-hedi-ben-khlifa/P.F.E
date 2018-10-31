@@ -14,6 +14,8 @@ use App\Cv;
 
 use App\Question;
 
+use App\Candidature;
+
 use App\Emploi;
 
 use App\User;
@@ -163,13 +165,17 @@ class TestController extends Controller
 
       $utilisateur = $emploi->user_id;
 
-      $us = User::find($utilisateur);
+      $us =       $user = Auth::user();
+
 
       $cv = Cv::find($cvId);
 
-        $user = Auth::user();
+      $user = Auth::user();
 
-        $user->notify(new post_notification($us));
+        $user->notify(new post_notification($us,$cv,$emploi));
+
+
+
 
     return redirect()->route('home');
 

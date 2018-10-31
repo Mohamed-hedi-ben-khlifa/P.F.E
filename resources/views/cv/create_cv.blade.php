@@ -19,15 +19,7 @@
           <div class="row">
             <div class="col-1"></div>
             <div class="col-11" style="margin-left: 11%;">
-              <label for="inp3" class="name">À propos</label>
-              <textarea  type="text" name="description" v-model="cv.description" rows="1" id="inp3" style="margin-bottom:-15px;" class="na col-md-9" placeholder=""></textarea>
-              <div class="lineee"></div>
 
-              @if($errors->get('description'))
-                  @foreach($errors->get('description') as $message)
-                          <li>{{ $message }}</li>
-                  @endforeach
-              @endif
 
               <label for="inp2" class="name">Nom </label>
               <input type="text" name="nom" v-model="cv.nom" id="inp2" class="na col-8" placeholder="Saisir votre nom">
@@ -45,6 +37,16 @@
 
               @if($errors->get('email'))
                   @foreach($errors->get('email') as $message)
+                          <li>{{ $message }}</li>
+                  @endforeach
+              @endif
+
+              <label for="inp3" class="name">Statut</label>
+              <textarea  type="text" name="description" v-model="cv.description" rows="1" id="inp3" style="margin-bottom:-15px;" class="na col-md-9" placeholder=""></textarea>
+              <div class="lineee"></div>
+
+              @if($errors->get('description'))
+                  @foreach($errors->get('description') as $message)
                           <li>{{ $message }}</li>
                   @endforeach
               @endif

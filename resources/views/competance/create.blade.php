@@ -11,7 +11,7 @@
       <div class="espace"><div class="col-sm"></div></div>
 
 
-        <span class="catt" style="margin-left: 3%;">Competance</span>
+        <span class="catt" style="margin-left: 3%;">Competénce</span>
 
 
       <form  action="{{url('cvs/'.$cv->id.'/competances')}}" method="post">

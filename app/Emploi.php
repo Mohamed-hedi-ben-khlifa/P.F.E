@@ -15,14 +15,18 @@ class Emploi extends Model
     public function tests(){
       return $this->hasMany('App\Test');
     }
-    public static function boot(){
+    public function candidatures(){
+      return $this->belongsTo('App\Condidature');
+    }
 
+    protected static function boot() {
+         parent::boot();
 
-static::deleting(function($id){
+         static::deleting(function($emploi) { // before delete() method call this
+              $emploi->cvs()->delete();
+              $emploi->tests()->delete();
+              // do the rest of the cleanup...
+         });
+     }
 
- $emploi->tests()->delete();
- $emploi->cvs()->delete();
-
-});
-}
 }

@@ -121,7 +121,7 @@ class CompetanceController extends Controller
 
         $competance->save();
 
-        return redirect()->route('profiles');
+        return redirect()->route('show_tests' ,['emploi'=>$emploi , 'cv' =>$cv ]);
 
     }
 

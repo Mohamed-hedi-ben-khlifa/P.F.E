@@ -352,7 +352,7 @@
 
 
 <script >
-var ids = <?php echo json_encode($id); ?>;
+var ids = <?php echo json_encode($cv->id); ?>;
 console.log(ids);
 
     var app = new Vue ({

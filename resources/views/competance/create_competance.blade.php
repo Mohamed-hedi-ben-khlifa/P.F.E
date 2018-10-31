@@ -11,7 +11,7 @@
       <div class="espace"><div class="col-sm"></div></div>
 
 
-        <span class="catt" style="margin-left: 3%;">Competance</span>
+        <span class="catt" style="margin-left: 3%;">Competénce</span>
 
 
       <form  action="{{url('emplois/'.$emploi->id.'/cvs/'.$cv->id.'/competances/store_competance')}}" method="post">
@@ -168,7 +168,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-4">
-                          <p class="langue">Dinamique</p>
+                          <p class="langue">dynamique</p>
                         </div>
                         <div class="col-md-8">
                           <input type="text" name="p6" v-model="competance.p6" placeholder="10%" class="valeur">

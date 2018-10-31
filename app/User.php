@@ -36,6 +36,19 @@ class User extends Authenticatable
     public function tests(){
       return $this->hasMany('App\Test');
     }
+    public function candidatures(){
+      return $this->hasMany('App\Candidature');
+    }
 
+    protected static function boot() {
+         parent::boot();
+
+         static::deleting(function($user) { // before delete() method call this
+              $user->emplois()->delete();
+              $user->tests()->delete();
+              $user->cvs()->delete();
+              // do the rest of the cleanup...
+         });
+     }
 
 }

@@ -65,10 +65,9 @@
         </div>
 
 
-
       <div class="note_bien">
         <span style="color:#452187;">Noter bien :</span>
-        <span style="color;#121212;">Ce test ne peut pas durer plus que 15 minutes et vous pouvez sélectionner un ou plusieurs choix </span>
+        <span style="color;#121212;">Ce test de niveau est obligatoire et ne peut pas durer plus que 15 minutes pour répondre à toute les questions en sélectionnant une ou plusieurs choix pour chacune.</span>
       </div>
 
 
@@ -109,7 +108,7 @@
                     </div>
 
 
-                  <div class="line">
+                  <div class="linex">
                     <div class="row">
                       <div class="col-md-12">
                       </div>
@@ -129,7 +128,9 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-10">
-              <a href="{{url('emplois/'.$emploi->id.'/cvs/'.$cv->id.'/tests/create_notification_admin')}}" class="btn btn-danger col-md-12"  >Treminer</a>
+            <div class="" >
+              <a href="{{route('home')}}" class="btn btn-danger col-md-12 mb-3"  >Treminer</a>
+            </div>
           </div>
             <div class="col-md-1"></div>
         </div>
@@ -144,7 +145,7 @@
 
 <script >
 
-    var ids = {!! json_encode($emploi->id) !!};
+    var ids = {!! json_encode($test->id) !!};
     console.log(ids);
 
 
@@ -245,122 +246,3 @@
 
 
 @endsection
-
-
-
-@if (Auth::user()->is_admin == 0)
-<div class="row">
-  <div class="col-0.5"></div>
-    <div class="col-md-3">
-      <div class="cadre1" style="background:#8B9598;">
-        <div class="top"></div>
-        <div class="cercle"></div>
-        <div class="nom">Ben Khlifa Mohamed </div>
-        <div class="fonction">Developpeur </div>
-        <div class="linne"></div>
-        <div class="icon" style="margin-top:6%;">
-          <p class="donne"> +21625300612</p>
-        </div>
-        <div class="icon1" >
-          <p class="donne"> Mohamed@gmail.com</p>
-        </div>
-        <div class="icon2" >
-          <p class="donne">4070,M'saken,sousse</p>
-        </div>
-        <div class="linne"></div>
-        <input type="button" class="btn btn-darck mt-4 col-11" @click="lescvs=true,lesemplois=false,cadre=false" style="margin-left:10px;" value="Mes Cvs">
-        <input type="button" class="btn btn-height mt-1 col-11" @click="lesemplois=true,lescvs=false,cadre=false" style="margin-left:10px;" value="Mes Emplois">
-      </div>
-    </div>
-    <div class="col-9">
-      <div class="cadre2" style="background:#ffffff;" v-if="cadre"></div>
-      <div class="cadre2" style="background:#ffffff;" v-if="lescvs">
-        <div class="top"></div>
-        <div class="row">
-          <div class="col-8">
-            <div class="cv">Les Cvs</div>
-          </div>
-          <div class="col-3">
-            <a href="{{route('cvs.create')}}"  class="btn btn-success col-12 pull-right ">Ajouter Un Cv</a>
-          </div>
-        </div>
-        <table class="table">
-          <div class="container">
-          <head>
-            <tr>
-              <th>Nom</th>
-              <th>E-Mail</th>
-              <th>Telephone</th>
-              <th>Ville</th>
-            </tr>
-          </head>
-          <body>
-            @foreach($cvs as $cv)
-            <tr>
-              <td>{{ $cv->nom }}</td>
-              <td>{{ $cv->email}}</td>
-              <td>{{ $cv->ville}}</td>
-              <td>
-                <form action="{{url('cvs/'.$cv->id)}}" method="post">
-                    {{ csrf_field() }}
-                    {{ method_field('DELETE')}}
-                     <a href="{{ url('cvs/'.$cv->id )}}" class="btn btn-primary">Details</a>
-                      <a href="{{ url('cvs/'.$cv->id.'/edit' )}}" class="btn btn-success col-md-3">Editer</a>
-
-                    <button type="submit" class="btn btn-danger">Supprimer</button>
-                </form>
-              </td>
-            </tr>
-            @endforeach
-            </body>
-            </div>
-          </table>
-          {{ $cvs->links() }}
-        </div>
-        <div class="cadre2" style="background:#ffffff;" v-if="lesemplois">
-
-          <div class="top"></div>
-          <div class="row">
-            <div class="col-8">
-              <div class="cv">Les Emplois</div>
-            </div>
-            <div class="col-3">
-              <a href="{{route('emplois.create')}}"  class="btn btn-success col-12 pull-right ">Ajouter Un Emploi</a>
-            </div>
-          </div>
-          <table class="table">
-            <head>
-              <tr>
-                <th> Nom</th>
-                <th>E-Mail</th>
-                <th>Adress</th>
-                <th>date</th>
-                <th>Action</th>
-              </tr>
-            </head>
-            <body>
-              @foreach($emplois as $emploi)
-              <tr>
-                <td>{{ $emploi->titre }}</td>
-                <td>{{ $emploi->categorie }}</td>
-                <td>{{ $emploi->description}}</td>
-                <td>{{ $emploi->created_at}}</td>
-                <td>
-                  <form action="{{url('emplois/'.$emploi->id)}}" method="post">
-                    {{ csrf_field() }}
-                    {{ method_field('DELETE')}}
-                    <a href="{{ url('emplois/'.$emploi->id )}}" class="btn btn-primary">Details</a>
-                    <a href="{{ url('emplois/'.$emploi->id.'/edit' )}}" class="btn btn-success col-md-3">Editer</a>
-                    <button type="submit" class="btn btn-danger">Supprimer</button>
-                  </form>
-                </td>
-              </tr>
-              @endforeach
-            </body>
-          </table>
-          {{ $emplois->links() }}
-        </div>
-      </div>
-      <div class="col-0.5"></div>
-    </div>
-    @endif

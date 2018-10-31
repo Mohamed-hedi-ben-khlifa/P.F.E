@@ -23,13 +23,12 @@
                   <form class="form-row" action="/rechercher" method="get">
                     <div class="form-group col-md-4">
                         <select class="form-control" name="categorie" >
-                          <?php $categorie=DB::table('emplois')->select('contrat')->distinct()->get(); ?>
-                          <?php $ville=DB::table('emplois')->select('ville')->distinct()->get(); ?>
-                          <?php $i=1; ?>
-                          <option >Categorie</option>
+                          <?php     $categorie=DB::table('emplois')->select('contrat')->distinct()->get(); ?>
+                          <?php     $ville=DB::table('emplois')->select('ville')->distinct()->get(); ?>
 
-                          @foreach($categorie[$i] as $cat)
-                            <option value="" >{{$cat}}</option>
+                          <option >Categorie</option>
+                            @foreach($categorie as $cat)
+                              <option >{{$cat->contrat}}</option>
                             @endforeach
 
 
@@ -37,10 +36,10 @@
                     </div>
 
                     <div class="form-group col-md-4">
-                      <select class="form-control" name="categorie">
-                        <option value="" >Ville</option>
-                        @foreach($ville[$i] as $v)
-                          <option value="" >{{$v}}</option>
+                      <select class="form-control" name="ville">
+                        <option>Ville</option>
+                          @foreach($ville as $v)
+                            <option value="" >{{$v->ville}}</option>
                           @endforeach
 
 
@@ -66,11 +65,12 @@
 
         <div class="container">
           <div class="espace"><div class="col-sm"></div></div>
-          <p class="cat">Les catégories les plus rencontre</p>
+          <p class="cat">Les catégories </p>
           <div class="espace"><div class="col-sm"></div></div>
 
           <div class="galerie" style="padding:1% 1.5%; 1.5% 1.5%">
             <div class="row">
+
               <div class="col-3">
                 <a href="#" target="_blank" style="text-decoration: none;" >
                   <div class="img1">
@@ -79,6 +79,8 @@
                   </div>
                 </a>
               </div>
+
+
               <div class="col-3">
                 <a href="#" target="_blank" style="text-decoration: none;" >
                   <div class="img2">

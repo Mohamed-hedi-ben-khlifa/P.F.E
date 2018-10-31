@@ -70,9 +70,9 @@ class CvController extends Controller
       }
 
 
-      public function indexs($emploiId){
+      public function index($emploiId){
 
-          $listecv = Cv::paginate(5);
+          $listecv = Auth::user()->cvs()->paginate(5);
 
           $emploi =Emploi::find($emploiId);
 
@@ -211,22 +211,20 @@ class CvController extends Controller
 
         $cv = Cv::find($cvId);
 
-        $id = $cvId ;
-
-        return view('cv.show',[ 'id' => $id ]);
+        return view('cv.show',[ 'cv' => $cv ]);
 
       }
 
       //permet de surprimer un emploi
-      public function destroy(Request $request , $id){
+      public function destroy(Request $request , $cvId){
 
-          $cv = Cv::find($id);
+          $cv = Cv::find($cvId);
 
           session()->flash('supprimer',"le cv à été bien supprimé !!");
 
           $cv->delete();
 
-          return redirect('cvs');
+          return redirect('profiles');
       }
 
       public function getcv ($id){

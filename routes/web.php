@@ -91,7 +91,7 @@ Route::get('emplois/{emploi}/cvs/{cv}/get_emploi','CvController@get_emploi')->na
 
 Route::get('emplois/{emploi}/cvs/{cv}/get_test','CvController@get_test')->name('get_test');
 
-Route::get('emplois/{emploi}/cvs/indexs','CvController@indexs')->name('indexs');
+Route::get('emplois/{emploi}/cvs/index','CvController@index')->name('index');
 
 
 
@@ -108,6 +108,14 @@ Route::get('users/cvs/cv_create','CvController@cv_create')->name('cv_create');
 Route::get('users/{user}/index_user','UserController@index_user')->name('index_user');
 
 Route::get('/profiles','UserController@profiles')->name('profiles');
+
+Route::get('/accepter','UserController@accepter')->name('accepter');
+
+Route::get('/refuser','UserController@refuser')->name('refuser');
+
+Route::get('/read','UserController@read')->name('read');
+
+Route::get('/delete_notification','UserController@delete_notification')->name('delete_notification');
 
 
 // Les route du Cv

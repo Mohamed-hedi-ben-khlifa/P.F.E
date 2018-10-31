@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('avatar')->default('default.png');
             $table->date('date_de_naissance');
             $table->string('telephone',8);
-            $table->integer('is_admin')->default(1);
+            $table->integer('is_admin')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

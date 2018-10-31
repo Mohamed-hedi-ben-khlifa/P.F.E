@@ -21,4 +21,15 @@ class Cv extends Model
   public function competances(){
     return $this->hasMany('App\Competance');
   }
+
+  protected static function boot() {
+       parent::boot();
+
+       static::deleting(function($cv) { // before delete() method call this
+            $cv->experiences()->delete();
+            $cv->competances()->delete();
+            $cv->formations()->delete();
+            // do the rest of the cleanup...
+       });
+   }
 }
