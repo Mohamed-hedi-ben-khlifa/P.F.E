@@ -1,0 +1,50 @@
+.page{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 99.8%;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 1%;
+
+}
+.image{
+  background: url("entretien-professionnel-main.jpg");
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px;
+  border:  none rgb(61, 68, 81);
+  background-size: 100%;
+  width: 100%;
+  margin-top:-22px;
+  z-index: -5;
+}
+.title{
+  font-family: 'Rancho';
+  font-size: 22px;
+  margin:0.5%;
+  margin-left: 5%;
+  color:#FFF3AA;
+}
+.donné{
+  font-family: 'Rancho';
+  font-size: 22px;
+  margin: 0.5%;
+  margin-left: 2%;
+  color:#FFffff;
+}
+#linn{
+  border-right:  2px solid #85CE36;
+  margin-bottom: -3%;
+  margin-top: 3%;
+  padding-left:3%;
+}
+.margni{
+  margin-left: 10%;
+}
+.btn{
+  background: #FFF3AA;
+  color: #555555;
+  font-family: 'Rancho';
+  font-weight: 600;
+
+}

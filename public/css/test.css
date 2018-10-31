@@ -1,0 +1,57 @@
+.question{
+  font-family: "Rancho";
+  color: #000;
+  font-size: 22px;
+}
+.reponse{
+  font-family: "Rancho";
+  color: #313436;
+  font-size: 22px;
+  margin-top: -1.5%;
+}
+.form-check-input{
+  margin-left: 4%;
+}
+.linex{
+  border-bottom: 1.5px solid #85CE36;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-right: 10%;
+}
+.note_bien{
+    font-family: "Rancho";
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+.update{
+  width:20px;
+  height: 20px;
+  margin-top:20%;
+  background: url("refresh-button.png");
+  background-size: 100%;
+
+}
+.delete{
+  width:20px;
+  height: 20px;
+  margin-top: 40%;
+  background: url("kids-delete-button.png");
+  background-size: 100%;
+}
+.test{
+  font-family: "Rancho";
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 8%;
+  margin: 5%;
+}
+.test1{
+  font-family: "Rancho";
+  color: #6c757d;
+  font-size: 20px;
+  margin-bottom: 8%;
+  margin-left: 5%;
+}

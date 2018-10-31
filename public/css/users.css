@@ -1,0 +1,197 @@
+.left-sidebar {
+    position: fixed;
+    width: 240px;
+    height: 60%;
+    top: 0;
+    z-index: 20;
+    padding-top: 60px;
+    margin-top: 5.1%;
+    background: #67757c;
+    -webkit-box-shadow: 0px 0 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.08);
+}
+.sidebar-nav {
+    background: #67757c;
+    padding: 0;
+}
+
+
+.card {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 20px 14px;
+    padding: 16px;
+    border: 0 solid #e7e7e7;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;
+    line-height: 1.2857em;
+    margin: calc(2rem - .14285em) 0 1rem;
+    color: #455a64;
+    padding: 0;
+}
+
+element.style {
+}
+.media-body p {
+    color: #99abb4;
+    line-height: 15px;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, p:last-child {
+    margin-bottom: 0;
+}
+.m-b-0 {
+    margin-bottom: 0px!important;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #99abb4;
+}
+
+.card-two h3 {
+  font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;
+    position: relative;
+    margin: 80px 0 30px;
+    text-align: center;
+    margin-top: 14%;
+  }
+  .cv1{
+    width:70px;
+    height: 70px;
+    background: url("cv1.png");
+    background-size: 100%;
+    margin-top: 10%;
+  }
+
+  .emploi1{
+    width:70px;
+    height: 70px;
+    background: url("briefcase.png");
+    background-size: 100%;
+    margin-top: 10%;
+  }
+
+  .user1{
+    width:70px;
+    height: 70px;
+    background: url("a.svg");
+    background-size: 100%;
+    margin-top: 10%;
+  }
+
+  .not{
+    width:70px;
+    height: 70px;
+    background: url("not.png");
+    background-size: 100%;
+    margin-top: 10%;
+  }
+
+  .table > thead > tr > th {
+      border-bottom: 1px solid #e7e7e7;
+      font-weight: 600;
+      color: #67757c;
+      text-decoration: none;
+  }
+  .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+      line-height: 32px;
+      vertical-align: top;
+      text-decoration: none;
+  }
+  .table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+  }
+  .table td, .table th {
+      padding: 0.55rem;
+  }
+  .table td, .table th {
+      padding: .75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+      text-decoration: none;
+  }
+  thead tr th {
+      color: #99abb4;
+      text-decoration: none;
+      font-weight: 500;
+  }
+td {
+      padding: 0;
+      color: #67757c;
+      text-decoration: none;
+      font-weight: 500;
+      font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;
+  }
+  th {
+      text-align: inherit;
+      color:#455a64;
+      text-decoration: none;
+      font-weight: 700;
+      font-family: 'Song+Myung',sans-serif;
+
+  }
+  .x {
+      text-align: inherit;
+      color:#455a64;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: 'Song+Myung',sans-serif;
+  }
+.lines{
+  border-bottom: 2px solid #455a64;
+  margin-right: 240px;
+  margin-left: 240px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.ajouter_emploi{
+  width:120px;
+  height: 120px;
+  background: url("briefcase-add-512.png");
+  background-size: 100%;
+  margin-top: 40%;
+  margin-left:18%;
+  z-index: 2;
+}
+.ajouter_cv{
+  width:120px;
+  height: 120px;
+  background: url("484546.png");
+  background-size: 100%;
+  margin-top: 40%;
+  margin-left:18%;
+  z-index: 2;
+}
+.ajouter_not{
+  width:120px;
+  height: 120px;
+  background: url("not.png");
+  background-size: 100%;
+  margin-top: 40%;
+  margin-left:18%;
+  z-index: 2;
+}
+.ajouter_test{
+  width:120px;
+  height: 120px;
+  background: url("test.png");
+  background-size: 100%;
+  margin-top: 40%;
+  margin-left:24%;
+  z-index: 2;
+}
+.ajouter_user{
+  width:140px;
+  height: 140px;
+  background: url("a.svg");
+  background-size: 100%;
+  margin-top: 35%;
+  margin-left:16%;
+  z-index: 2;
+}
+a:hover{
+  text-decoration: none;
+}

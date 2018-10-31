@@ -1,0 +1,260 @@
+.carde{
+  background: url("01-workplace-stress-one-thing.jpg");
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px;
+  border:  none rgb(61, 68, 81);
+  width: 100%;
+  margin-top:-22px;
+  z-index: -5;
+}
+
+#bas{
+  background-color: #ffffff;
+}
+#filtre{
+  background: rgba(150, 150, 150, 0.4);
+  height: 100%;
+}
+
+#bq{
+  border-right: 1.5px solid #85CE36;
+  border-bottom:1.5px solid #85CE36;
+
+
+}
+#qb{
+  border-left: 1.5px solid #85CE36;
+  border-bottom:1.5px solid #85CE36;
+}
+#as{
+  height: 100px;
+  border-bottom:1.5px solid #85CE36;
+  margin-bottom: 1%;
+}
+#lin{
+  border-left: 2px solid #28a745;
+  margin-bottom: -3%;
+  margin-top: 3%;
+  margin-left: -5%;
+}
+.qq{padding-top: 6%;}
+
+#na{
+    font-family: "Rancho";
+    color: #4f5f6f;
+    font-size: 24px;
+}
+
+
+.form-check{
+  margin-right: 5%;
+}
+
+.navbar-brand{
+  font-family: 'rancho';
+  font-weight: 700;
+}
+
+.titre{
+    font-family: 'rancho';      font-weight:700;
+      font-size: 22px;
+      color:#85CE36;
+      margin-bottom: -1%;
+
+}
+
+.titre1{
+    font-family: 'rancho';      font-weight: 700;
+      font-size: 30px;
+      color:#ffffff;
+      margin-bottom: 1%;
+}
+
+.head{
+    margin-top: 30%;
+}
+
+.espace{
+  height: 25px;
+}
+
+.cat{
+  font-family: 'rancho';
+  font-weight: 100;
+  font-size: 38px;
+}
+
+.galerie{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 99.8%;
+  height: 351px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+}
+.cadree{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background :#ffffff;
+}
+
+.img1{
+   background: url('Sans titre-1 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img2{
+   background: url('Sans titre-2 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img3{
+   background: url('Sans titre-3 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img4{
+   background: url('Sans titre-4 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img5{
+   background: url('Sans titre-5 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img6{
+   background: url('Sans titre-6 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img8{
+   background: url('Sans titre-8 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+.img7{
+   background: url('Sans titre-7 copier.jpg');
+   width: 263.5px;
+   height: 160px;
+   margin: 1%;
+   z-index: 10;
+}
+
+.beska{
+  text-align: center;
+  text-align-last: center;
+  font-size: 20px;
+  margin-left: 5%;
+  font-family: 'rancho';
+  color: #28a745;
+  padding-top: 30%;
+}
+
+
+
+
+#a:hover{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+}
+
+.about{
+  background-color: #1a1a1a;
+  height: 320px;
+  width: 100%;
+  margin-top: -1.9%;
+
+}
+.aa{
+  margin-left: 90px;
+  font-family: 'rancho';
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.ax{
+  border-right: 2px solid #85CE36;
+  margin-right: -10%;
+}
+
+.ab{
+  font-family: 'rancho';
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffffff;
+
+}
+.abw{
+  font-family: 'rancho';
+  font-size: 28px;
+  font-weight: 300;
+  color: #85CE36;
+}
+
+.abo{
+  font-family: 'rancho';
+  font-size: 20px;
+  color: #888;
+  padding-right: 10%;
+}
+
+.end{
+  background-color: #000;
+  height: 125px;
+  width: 100%;
+  text-align: center;
+  font-family: 'rancho';
+  font-size: 22px;
+}
+.line{
+    border-bottom: 1px solid #FFF3AA;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+    width: 60%;
+    margin-top: -4px;
+}
+.lineee{
+    border-bottom: 1px solid #FFF3AA;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+    width: 77.5%;
+    margin-top: -4px;
+}
+.en{
+  color: #ffff;
+}
+#lm{
+  height: 30%;
+}
+
+#ml{
+  height: 50%;
+}
+.vat{
+  font-family: 'rancho';
+  font-size: 24px;
+  color: #111111;
+  margin-left: -8%;
+}
+.btn{
+
+  font-family: 'rancho';
+  font-weight: 600;
+}

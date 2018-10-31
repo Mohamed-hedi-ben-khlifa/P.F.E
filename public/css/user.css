@@ -1,0 +1,475 @@
+.cadre{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 230px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+
+}
+.cadre22{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 389px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+
+}
+.cadre1{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 60px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 12px;
+  border-radius: 2px;
+}
+.cadre2{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 99%;
+  height: 102%;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+}
+.cadre3{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 240px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 12px;
+  border-radius: 2px;
+}
+.cadre33{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 80px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 12px;
+  border-radius: 2px;
+}
+.cadre4{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 300px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+  margin-left: 2.5%;
+}
+.cadre5{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 250px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+  margin-left: 2.5%;
+}
+.cadre6{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 236px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 12px;
+  border-radius: 2px;
+  margin-left: 2.5%;
+}
+.cadre7{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 100%;
+  height: 286px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -38px;
+  border-radius: 2px;
+  margin-left: 2.5%;
+}
+.cadre8{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 98%;
+  height: 130px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: -12px;
+  border-radius: 2px;
+  margin-left: 1.4%;
+}
+.cadre9{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 96%;
+  height: 250px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 6%;
+  border-radius: 2px;
+  margin-left: 2%;
+}
+.cadre10{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 98%;
+  height: 410px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 2%;
+  border-radius: 2px;
+  margin-left: 2%;
+}
+.cadre11{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width: 96%;
+  height: 148px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: #ffffff;
+  margin-top: 5%;
+  border-radius: 2px;
+  margin-left: 2%;
+  margin-bottom: 12%;
+}
+
+.cercle {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.32) 0px 0px 4px 2px;
+    width: 80px;
+    height: 80px;
+    margin-left: 33%;
+}
+.class{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.top{
+  height: 20px;
+}
+.nom{
+  font-family:  'Rancho',sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 4%;
+  color: #455a64;
+  font-weight: 600;
+}
+.cv{
+  font-family: 'Rancho',sans-serif;
+  font-size: 22px;
+  color: #01161E;
+  font-weight: 300;
+  margin-left: 4%;
+}
+.donne{
+  font-family: 'Rancho',sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #ffffff;
+
+}
+.fonction{
+  font-family: 'Rancho',sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -2%;
+  color: #99abb4;
+
+}
+.icon{
+  width:18px;
+  height: 18px;
+  background: url("phone-call.png");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 10%;
+}
+.icon1{
+  width:18px;
+  height: 18px;
+  background: url("envelope.png");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 10%;
+}
+.icon2{
+  width:18px;
+  height: 18px;
+  background: url("placeholder.svg");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 10%;
+}
+.notification{
+  width:17px;
+  height: 17px;
+  background: url("alarm-bell.png");
+  background-size: 100%;
+  color: #000;
+  margin: 5%;
+  margin-left: 25px;
+}
+.create_cv{
+  width:120px;
+  height: 120px;
+  background: url("cv.png");
+  background-size: 100%;
+  margin-left: 14%;
+}
+.create_emploi{
+  width:120px;
+  height: 120px;
+  background: url("employee (2).png");
+  background-size: 100%;
+  margin-left: 14%;
+}
+.create_test{
+  width:120px;
+  height: 120px;
+  background: url("exam (1).png");
+  background-size: 100%;
+  margin-left: 14%;
+}
+.create_user{
+  width:120px;
+  height: 120px;
+  background: url("student.png");
+  background-size: 100%;
+  margin-left: 14%;
+}
+.create_notification{
+  width:120px;
+  height: 120px;
+  background: url("notification.png");
+  background-size: 100%;
+  margin-left: 14%;
+}
+.notifications{
+  width:80px;
+  height: 80px;
+  background: url("notification.png");
+  background-size: 100%;
+  margin-right: 200px;
+}
+.showcv{
+  width:25px;
+  height: 25px;
+  background: url("cv-file-interface-symbol (2).png");
+  background-size: 100%;
+  margin-right: -2%;
+  margin-top: 14px;
+}
+.showemploi{
+  width:25px;
+  height: 25px;
+  background: url("employee (1).png");
+  background-size: 100%;
+  margin-right: -2%;
+  margin-top: 14px;
+}
+.showuser{
+  width:25px;
+  height: 25px;
+  background: url("avatar(1).png");
+  background-size: 100%;
+  margin-right: -2%;
+  margin-top: 14px;
+}
+.showtest{
+  width:25px;
+  height: 25px;
+  background: url("exam (2).png");
+  background-size: 100%;
+  margin-right: -2%;
+  margin-top: 14px;
+}
+.setting{
+  width:17px;
+  height: 17px;
+  background: url("settings-gears.png");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 25px;
+}
+.emploi{
+  width:30px;
+  height: 30px;
+  background: url("101927337-lawyer-with-briefcase-icon.jpg");
+  background-size: 100%;
+  margin: 3%;
+  margin-left: 20px;
+  margin-top: -8%;
+}
+.emplois{
+  width:50px;
+  height: 50px;
+  background: url("employee (1).png");
+  background-size: 100%;
+  margin-left: 40%;
+}
+.notifications{
+  width:50px;
+  height: 50px;
+  background: url("notification (1).png");
+  background-size: 100%;
+  margin-left: 40%;
+}
+.Profile{
+  width:50px;
+  height: 50px;
+  background: url("avatar(1).png");
+  background-size: 100%;
+  margin-left: 40%;
+  margin-right: 25%;
+}
+.users{
+  width:17px;
+  height: 17px;
+  background: url("businessman.png");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 25px;
+}
+.tests{
+  width:24px;
+  height: 24px;
+  background: url("file-document-clipboard-survey-512.png");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 22px;
+  margin-top: -2%;
+}
+.cvs{
+  width:17px;
+  height: 17px;
+  background: url("applications.svg");
+  background-size: 100%;
+  margin: 5%;
+  margin-left: 25px;
+}
+.cvss{
+  width:50px;
+  height: 50px;
+  background: url("cv-file-interface-symbol (2).png");
+  background-size: 100%;
+  margin-left:  40%;
+}
+.testss{
+  width:50px;
+  height: 50px;
+  background: url("exam (2).png");
+  background-size: 100%;
+  margin-left:  40%;
+}
+.userss{
+  width:50px;
+  height: 50px;
+  background: url("avatar(1).png");
+  background-size: 100%;
+  margin-left:  40%;
+}
+.closes{
+  width:25px;
+  height: 25px;
+  background: url("delete-cross.png");
+  background-size: 100%;
+}
+.update{
+  width:25px;
+  height: 25px;
+  background: url("refresh-button (2).png");
+  background-size: 100%;
+}
+.view{
+  width:25px;
+  height: 25px;
+  background: url("eye (1).png");
+  background-size: 100%;
+}
+
+.linne{
+  border-top: 1px solid #E7E7E7;
+}
+
+.liinne{
+  border-top: 2px solid #01161E;
+  margin: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btn :hover{
+  background-color: #01161E;
+  color: #ffffff;
+}
+.nb{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 10%;
+  font-size: 25px;
+  font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;  font-weight: 400;
+  color: #01161E;
+}
+.sous_titre{
+  font-size: 16px;
+  font-family: 'Rancho',sans-serif;
+  font-weight: 400;
+  color: #455a64;
+}
+.sous_titre1{
+  font-size: 32px;
+  font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;
+  font-weight: 400;
+  color: #8B9598;
+}
+.nbr{
+  font-family: 'Lato','Open Sans','Poppins','Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  color: #01161E;
+}
+.left-sidebar {
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    padding-top: 60px;
+    background: #fff;
+    -webkit-box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,81 @@
+.carde{
+  background: url("01-workplace-stress-one-thing.jpg");
+  background-size: 100%;
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: 590px;
+  z-index: -1;
+  margin-top:-22px;
+}
+#filtre{
+  background: rgba(150, 150, 150, 0.4);
+  height: 100%;
+}
+#a{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width:100%;
+  height: 450px;
+  margin-top:30px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#b{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px 0px, rgba(0, 0, 0, 0.24) 0px 1px 4px 0px;
+  width:100%;
+  height: 70px;
+  margin-top:10px;
+  border: 1px none rgb(61, 68, 81);
+  box-sizing: border-box;
+  color: rgb(61, 68, 81);
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Rancho";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.beskaa{
+  text-align: center;
+  font-family: "rancho";
+  font-size: 68px;
+  font-weight: 700;
+  color:#fff;
+  margin-bottom: -1%;
+
+}
+
+.navbar-brand{
+  font-family: 'rancho';
+  font-weight: 700;
+}
+
+.sd{
+  font-family: "rancho";
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.bar{
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+.espace{
+  height: 20px;
+}
+
+.passe{
+  text-align: center;
+  margin-left: 32%;
+  font-family: "rancho";
+  font-size: 16px;
+}
+
+#Rechercher
+{
+  margin-top: -10%;
+}
